@@ -1,0 +1,59 @@
+@font-face {
+    font-family: titulo;
+    src: url(fonts/titulo.ttf)format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    background-image: url(img/background.jpg);
+}
+#banner{
+    text-align: center;
+    background: linear-gradient(90deg,rgba(0, 0, 0,0.5)0%, rgba(110,110,110,0.5) 65%, rgba(255,255,255,0.5) 100%);
+}
+#banner h1{
+    position: relative;
+    font-family:titulo;
+    font-size: 50px;
+    top:0.5em;
+    color: #ffa500;
+    text-shadow: 2px 2px 5px black;
+}
+#banner hr{
+    color: transparent;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(157,43,4,1) 0%, rgba(177,97,14,1) 65%, rgba(176,104,11,1) 100%); 
+}
+#menu{
+    margin: 2% 3%;
+    background: rgb(221, 143, 25,0.9);
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+    float: left;
+}
+#carta{
+    width: 15%;
+    margin: 2% 5%;
+    background: rgb(221, 143, 25,0.9);
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+    float: right;
+}
+#personal{
+    margin-top: 2%;
+    margin-right: 18%;
+    background: rgb(221, 143, 25,0.9);
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+    float: right;
+}
+#personal th h3{
+    position: relative;
+    left: 45%;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BIBLIOTECA SYSTEM "BIBLIOTECA.dtd">
+<BIBLIOTECA>
+    <LIBRO COD="1">
+        <AUTOR>Sergio Lujan Mora</AUTOR>
+        <TITULO>XML para todos</TITULO>
+        <YEAR>2001</YEAR>
+        <EDITORIAL>UA Prensa</EDITORIAL>
+    </LIBRO>
+    <LIBRO COD="2">
+        <AUTOR>Marisa Zayas Fornieles</AUTOR>
+        <TITULO>Como aprobar una oposicion</TITULO>
+        <YEAR>1999</YEAR>    
+        <EDITORIAL>Prensa editorial</EDITORIAL>
+    </LIBRO>
+</BIBLIOTECA>

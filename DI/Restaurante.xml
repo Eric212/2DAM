@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RESTAURANTE SYSTEM "Restaurante.dtd">
+<?xml-stylesheet href="xsl.xsl" type="text/xsl"?>
+<RESTAURANTE>
+    <MENU>
+        <PRIMERO>Ensalada Valenciana</PRIMERO>
+        <SEGUNDO>Huevo de codorniz con tomacat y atun</SEGUNDO>
+        <TERCERO>Tallarines de sepia</TERCERO>
+        <POSTRE>Tarta de queso</POSTRE>
+        <POSTRE>Tarta de calbaza</POSTRE>
+        <POSTRE>Panacota</POSTRE>
+        <PRECIO_MENU>19,50€</PRECIO_MENU>
+    </MENU>
+    <CARTA>
+        <PLATO_CARTA>
+            <NOMBRE_PLATO>Arroz del Senyoret</NOMBRE_PLATO>
+            <PRECIO_PLATO>18,50€/Por persona</PRECIO_PLATO>
+        </PLATO_CARTA>
+        <PLATO_CARTA>
+            <NOMBRE_PLATO>Arroz a banda</NOMBRE_PLATO>
+            <PRECIO_PLATO>12,50€/Por persona</PRECIO_PLATO>
+        </PLATO_CARTA>
+        <PLATO_CARTA>
+            <NOMBRE_PLATO>Denton</NOMBRE_PLATO>
+            <PRECIO_PLATO>55€/El Kg</PRECIO_PLATO>
+        </PLATO_CARTA>
+    </CARTA>
+    <PLANTILLA>
+        <EMPLEADO CARGO="Camarero">
+            <NOMBRE_EMPLEADO>Gabriel</NOMBRE_EMPLEADO>
+            <TURNO>10:00-17:00</TURNO>
+        </EMPLEADO>
+        <EMPLEADO CARGO="Cocinero">
+            <NOMBRE_EMPLEADO>Angy</NOMBRE_EMPLEADO>
+            <TURNO>10:00-17:00</TURNO>
+        </EMPLEADO>
+        <EMPLEADO CARGO="Camarero">
+            <NOMBRE_EMPLEADO>Puri</NOMBRE_EMPLEADO>
+            <TURNO>19:30-00:00</TURNO>
+        </EMPLEADO>
+        <EMPLEADO CARGO="Cocinero">
+            <NOMBRE_EMPLEADO>Sergio</NOMBRE_EMPLEADO>
+            <TURNO>19:30-00:00</TURNO>
+        </EMPLEADO>
+    </PLANTILLA>
+</RESTAURANTE>
