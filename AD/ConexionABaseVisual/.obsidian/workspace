@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "6cc310a1b2a8a8e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "955ab525aeb421f5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Hola.md.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "876f64c65751e069",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Hola.md.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44d923d4c11b94f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f5f23beb5a15dfb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f04c44860318af2e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "00064d99e53f42ec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ee034e9df2f106f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "4abded8502c6c46d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cfb6d826100b408",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hola.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "876f64c65751e069",
+  "lastOpenFiles": [
+    "Hola.md.md",
+    "Untitled.md",
+    "Conexion a base de datos Visual 2019.md"
+  ]
+}
