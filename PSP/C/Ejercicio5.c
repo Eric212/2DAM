@@ -18,8 +18,7 @@ int main(){
                 close(fd[0]);//el hijo sólo va a leer así que cierra el descriptor de salida
                 char saludoHijo[]="Buenos dias padre!";
                 write(fd[1], saludoHijo, sizeof(saludoHijo));//padre escribe en pipe           
-                printf("\tEl HIJO envia algo del pipe: %s\n",saludoHijo);  
-                wait(NULL); //espero al proceso hijo           
+                printf("\tEl HIJO envia algo del pipe: %s\n",saludoHijo);   
                 break;  
                 
     default ://PADRE RECIBE       
