@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="partido">
         <html>
             <head>
@@ -9,6 +9,7 @@
             </head>
             <body>
                 <div id="backlakers">
+                    <img src="lakers.png"></img>
                     <table id="lakers">
                         <th colspan="4"><xsl:value-of select="equipo[1]/nombre[1]"></xsl:value-of></th>
                         <xsl:for-each select="equipo[1]/jugador">
@@ -28,6 +29,7 @@
                     </table>
                 </div>
                 <div id="backceltics">
+                    <img src="celtic.png"></img>
                     <table id="celtics">
                         <th colspan="4"><xsl:value-of select="equipo[2]/nombre[1]"></xsl:value-of></th>
                         <xsl:for-each select="equipo[2]/jugador">
@@ -62,11 +64,15 @@
                                 <td><xsl:value-of select="dorsal"></xsl:value-of></td>
                                 <td><xsl:value-of select="puntuacion"></xsl:value-of></td>
                             </tr>
-                            <tr>
-                                <xsl:variable name="puntuacion" select="sum(puntuacion)"></xsl:variable>
-                                <td colspan="4">    </td>
-                            </tr>
                         </xsl:for-each>
+                    </table>
+                </div>
+                <div id="backmarcador">
+                    <table id="marcador">
+                        <tr>
+                            <td><xsl:value-of select="sum(destacados/anotacion[equipo='Boston Celtics']/puntuacion)"></xsl:value-of></td>
+                            <td><xsl:value-of select="sum(destacados/anotacion[equipo='Los Angeles Lakers']/puntuacion)"></xsl:value-of></td>
+                        </tr>
                     </table>
                 </div>
             </body>

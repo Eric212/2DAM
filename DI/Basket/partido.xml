@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet href="partido.xsl" type="text/xsl"?>
 <partido xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="partido.xsd">
+         xsi:noNamespaceSchemaLocation="partido.xsd">
     <equipo>
         <nombre>Los Angeles Lakers</nombre>
         <jugador titular="true">

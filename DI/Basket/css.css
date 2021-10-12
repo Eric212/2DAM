@@ -17,7 +17,7 @@ html{
     width: 80%;
     padding:10px;
     background: linear-gradient(90deg, rgba(9,52,2,0.7) 0%, rgba(38,200,23,0.7) 57%, rgba(12,230,77,0.7) 100%);
-    margin: 10% 0 10% 25%;
+    margin: 30% 0 10% 25%;
     border-radius: 20px;
 }
 #backceltics{
@@ -25,26 +25,31 @@ html{
     position: relative;
     margin-top: 2.5%;
     margin-left: 2.5%;
-    background: linear-gradient(90deg, rgba(10,10,10,0.9) 0%, rgba(147,147,147,0.9) 57%, rgba(255,255,255,0.9) 100%);
     float: left;
     border-radius: 50px;
     
+}
+#backceltics img{
+    position: absolute;
+    transform:rotateY(-180deg)
 }
 #backlakers{
     width: 30%;
     position: relative;
     margin-top: 2.5%;
     margin-right: 2.5%;
-    background: linear-gradient(90deg, rgba(10,10,10,0.9) 0%, rgba(147,147,147,0.9) 57%, rgba(255,255,255,0.9) 100%);
     float: right;
     border-radius: 50px;
+}
+#backlakers img{
+    position: absolute;
 }
 #lakers{
     width: 80%;
     position: relative;
     padding:10px;
     background: linear-gradient(90deg, rgba(78,19,140,0.8) 0%, rgba(95,34,255,0.8) 57%, rgba(177,75,255,0.8) 100%);
-    margin: 10% 0 10% 25%;
+    margin: 30% 0 10% 25%;
     border-radius: 20px;
 }
 #backanotaciones{
@@ -63,4 +68,9 @@ html{
     background: linear-gradient(180deg, rgba(78,19,140,1) 0%, rgba(9,52,2,1) 60%);
     border-radius:10%;
     font-size: 15px;
+}
+#backmarcador{
+    background: linear-gradient(90deg,rgba(255,255,255,1)0%,rgba(20,20,20,1)50%, rgba(255,255,255,1)100%);
+    position: relative;
+    margin: 2% 45%;
 }
