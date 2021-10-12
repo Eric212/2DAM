@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="partido.xsl" type="text/xsl"?>
+<partido xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="partido.xsd">
+    <equipo>
+        <nombre>Los Angeles Lakers</nombre>
+        <jugador titular="true">
+            <nombre>Kareem Abdul-Jabbar</nombre>
+            <dorsal>33</dorsal>
+        </jugador>
+        <jugador titular="true">
+            <nombre>Nate Archibald</nombre>
+            <dorsal>10</dorsal>
+        </jugador>
+        <jugador titular="true">
+            <nombre>Paul Arizin</nombre>
+            <dorsal>3</dorsal>
+        </jugador>
+        <jugador titular="true">
+            <nombre>Charles Barkley</nombre>
+            <dorsal>34</dorsal>
+        </jugador>
+        <jugador titular="true">
+            <nombre>Rick Barry</nombre>
+            <dorsal>24</dorsal>
+        </jugador>
+        <jugador titular="false">
+            <nombre>Elgin Baylor</nombre>
+            <dorsal>22</dorsal>
+        </jugador>
+        <jugador titular="false">
+            <nombre>Dave Bing</nombre>
+            <dorsal>21</dorsal>
+        </jugador>
+    </equipo>
+    <equipo>
+        <nombre>Boston Celtics</nombre>
+        <jugador titular="true">
+            <nombre>Larry Bird</nombre>
+            <dorsal>33</dorsal>
+        </jugador>
+        <jugador titular="true">
+            <nombre>Wilt Chamberlain</nombre>
+            <dorsal>13</dorsal>
+        </jugador>
+        <jugador titular="true">
+            <nombre>Bob Cousy</nombre>
+            <dorsal>14</dorsal>
+        </jugador>
+        <jugador titular="true">
+            <nombre>Dave Cowens</nombre>
+            <dorsal>34</dorsal>
+        </jugador>
+        <jugador titular="true">
+            <nombre>Billy Cunningham</nombre>
+            <dorsal>32</dorsal>
+        </jugador>
+        <jugador titular="false">
+            <nombre>Dave DeBusschere</nombre>
+            <dorsal>22</dorsal>
+        </jugador>
+        <jugador titular="false">
+            <nombre>Clyde Drexler</nombre>
+            <dorsal>21</dorsal>
+        </jugador>
+    </equipo>
+    <destacados>
+        <falta>
+            <equipo>Los Angeles Lakers</equipo>
+            <nombre_jugador>Kareem Abdul-Jabbar</nombre_jugador>
+            <dorsal>33</dorsal>
+        </falta>
+        <falta>
+            <equipo>Boston Celtics</equipo>
+            <nombre_jugador>Billy Cunningham</nombre_jugador>
+            <dorsal>32</dorsal>
+        </falta>
+        <falta>
+            <equipo>Boston Celtics</equipo>
+            <nombre_jugador>Wilt Chamberlain</nombre_jugador>
+            <dorsal>13</dorsal>
+        </falta>
+        <falta>
+            <equipo>Boston Celtics</equipo>
+            <nombre_jugador>Dave Cowens</nombre_jugador>
+            <dorsal>34</dorsal>
+        </falta>
+        <falta>
+            <equipo>Los Angeles Lakers</equipo>
+            <nombre_jugador>Kareem Abdul-Jabbar</nombre_jugador>
+            <dorsal>33</dorsal>
+        </falta>
+        <anotacion>
+            <equipo>Los Angeles Lakers</equipo>
+            <nombre_jugador>Kareem Abdul-Jabbar</nombre_jugador>
+            <dorsal>33</dorsal>
+            <puntuacion>3</puntuacion>
+        </anotacion>
+        <anotacion>
+            <equipo>Los Angeles Lakers</equipo>
+            <nombre_jugador>Rick Barry</nombre_jugador>
+            <dorsal>24</dorsal>
+            <puntuacion>2</puntuacion>
+        </anotacion>
+        <anotacion>
+            <equipo>Los Angeles Lakers</equipo>
+            <nombre_jugador>Paul Arizin</nombre_jugador>
+            <dorsal>3</dorsal>
+            <puntuacion>3</puntuacion>
+        </anotacion>
+        <anotacion>
+            <equipo>Boston Celtics</equipo>
+            <nombre_jugador>Dave Cowens</nombre_jugador>
+            <dorsal>34</dorsal>
+            <puntuacion>3</puntuacion>
+        </anotacion>
+        <anotacion>
+            <equipo>Boston Celtics</equipo>
+            <nombre_jugador>Larry Bird</nombre_jugador>
+            <dorsal>33</dorsal>
+            <puntuacion>1</puntuacion>
+        </anotacion>
+        <anotacion>
+            <equipo>Boston Celtics</equipo>
+            <nombre_jugador>Wilt Chamberlain</nombre_jugador>
+            <dorsal>13</dorsal>
+            <puntuacion>2</puntuacion>
+        </anotacion>
+        <anotacion>
+            <equipo>Los Angeles Lakers</equipo>
+            <nombre_jugador>Nate Archibald</nombre_jugador>
+            <dorsal>10</dorsal>
+            <puntuacion>2</puntuacion>
+        </anotacion>
+        <anotacion>
+            <equipo>Boston Celtics</equipo>
+            <nombre_jugador>Bob Cousy</nombre_jugador>
+            <dorsal>13</dorsal>
+            <puntuacion>3</puntuacion>
+        </anotacion>
+        <anotacion>
+            <equipo>Boston Celtics</equipo>
+            <nombre_jugador>Billy Cunningham</nombre_jugador>
+            <dorsal>32</dorsal>
+            <puntuacion>2</puntuacion>
+        </anotacion>
+        <anotacion>
+            <equipo>Los Angeles Lakers</equipo>
+            <nombre_jugador>Charles Barkley</nombre_jugador>
+            <dorsal>34</dorsal>
+            <puntuacion>2</puntuacion>
+        </anotacion>
+        <anotacion>
+            <equipo>Los Angeles Lakers</equipo>
+            <nombre_jugador>Rick Barry</nombre_jugador>
+            <dorsal>24</dorsal>
+            <puntuacion>1</puntuacion>
+        </anotacion>
+        <anotacion>
+            <equipo>Los Angeles Lakers</equipo>
+            <nombre_jugador>Rick Barry</nombre_jugador>
+            <dorsal>24</dorsal>
+            <puntuacion>1</puntuacion>
+        </anotacion>
+        <anotacion>
+            <equipo>Los Angeles Lakers</equipo>
+            <nombre_jugador>Rick Barry</nombre_jugador>
+            <dorsal>24</dorsal>
+            <puntuacion>1</puntuacion>
+        </anotacion>
+    </destacados>
+</partido>

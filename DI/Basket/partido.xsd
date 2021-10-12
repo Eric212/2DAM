@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="partido">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="equipo" maxOccurs="2" minOccurs="2">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="jugador" maxOccurs="7" minOccurs="5">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="dorsal" type="xs:integer"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="titular" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="destacados">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="falta" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="equipo" type="xs:string"/>
+                                        <xs:element name="nombre_jugador" type="xs:string"/>
+                                        <xs:element name="dorsal" type="xs:integer"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="anotacion" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="equipo" type="xs:string"/>
+                                        <xs:element name="nombre_jugador" type="xs:string"/>
+                                        <xs:element name="dorsal" type="xs:integer"/>
+                                        <xs:element name="puntuacion" type="xs:byte"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name = "partido">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name = "equipo"  maxOccurs="unbounded" minOccurs="0" >
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element type = " xs: string" name = "nombre"/>
+                        <xs:element name = "jugador">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element type = " xs: string" name = "nombre"/>
+                                    <xs:element type = " xs: byte" name = "dorsal"/>
+                                    <xs:element type = " xs: byte" name = "dorsal"/>
+                                    <xs:element type = " xs: byte" name = "dorsal"/>
+                                </xs:sequence>
+                                <xs:attribute type="xs:string" name="titular" use="optional"/>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name = "jugador">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element type = " xs: string" name = "nombre"/>
+                                    <xs:element type = " xs: byte" name = "dorsal"/>
+                                </xs:sequence>
+                                <xs:attribute type="xs:string" name="titular" use="optional"/>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name = "jugador">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element type = " xs: string" name = "nombre"/>
+                                    <xs:element type = " xs: byte" name = "dorsal"/>
+                                </xs:sequence>
+                                <xs:attribute type="xs:string" name="titular"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name = "destacados">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name = "falta">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element type = " xs: string" name = "equipo"/>
+                                    <xs:element type = " xs: string" name = "nombre_jugador"/>
+                                    <xs:element type = " xs: byte" name = "dorsal"/>
+                                    <xs:element type = " xs: byte" name = "dorsal"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name = "anotacion">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element type = " xs: string" name = "equipo"/>
+                                    <xs:element type = " xs: string" name = "nombre_jugador"/>
+                                    <xs:element type = " xs: byte" name = "dorsal"/>
+                                    <xs:element type = " xs: byte" name = "puntuacion"/>
+                                    <xs:element type = " xs: byte" name = "puntuacion"/>
+                                    <xs:element type = " xs: byte" name = "puntuacion"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type = "xs:string" name = "xmlns:xsi"/>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
