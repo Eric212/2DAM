@@ -22,12 +22,11 @@ public class MainActivity extends AppCompatActivity {
         paises.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getApplicationContext(),paises.getItemAtPosition(position).getClass().getName(),Toast.LENGTH_LONG);
+                Toast.makeText(MainActivity.this,adapter.getItem(position).toString(),Toast.LENGTH_LONG).show();
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-                Toast.makeText(getApplicationContext(),"",Toast.LENGTH_LONG);
             }
         });
     }

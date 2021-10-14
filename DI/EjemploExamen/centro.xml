@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="centro.css" type="text/css"?>
+<!DOCTYPE centro SYSTEM "centro.dtd">
+<!--<centro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="centro.xsd">-->
+<centro>
+  <artista>
+    <nombre>Juana Murcia</nombre>
+    <obra>
+      <titulo>Niños bailando</titulo>
+      <venta>200</venta>
+      <tema>alegoría</tema>
+    </obra>
+    <obra>
+      <titulo>La mayonesa</titulo>
+      <venta>600</venta>
+      <tema>Bodegón</tema>
+      <premio>
+        <ano>2007</ano>
+        <nombre>Premio Aragón</nombre>
+      </premio>
+      <premio>
+        <ano>2009</ano>
+        <nombre>Premio Rioja</nombre>
+      </premio>
+    </obra>
+  </artista>
+  <artista>
+    <nombre>Pepe Carrascosa</nombre>
+    <obra>
+      <titulo>Venís o qué?</titulo>
+      <venta>500</venta>
+      <tema>Negro</tema>
+      <premio>
+        <ano>2018</ano>
+        <nombre>Ciutat d,Elx</nombre>
+      </premio>
+    </obra>
+    <obra>
+      <titulo>Niños cantando</titulo>
+      <venta>200</venta>
+      <tema>Alegoría</tema>
+    </obra>
+  </artista>
+  <artista>
+    <nombre>Paloma Siempre</nombre>
+    <obra>
+      <titulo>Ser</titulo>
+      <venta>500</venta>
+      <tema>Rayada</tema>
+      <premio>
+        <ano>2006</ano>
+        <nombre>Ciutat d,Oriola</nombre>
+      </premio>
+    </obra>
+    <obra>
+      <titulo>La perinola</titulo>
+      <venta>2000</venta>
+      <tema>Libre</tema>
+    </obra>
+  </artista>
+  <artista>
+    <nombre>Rosita de los Santos</nombre>
+    <obra>
+      <titulo>Henfin</titulo>
+      <venta>1500</venta>
+      <tema>Hecatombe</tema>
+      <premio>
+        <ano>2012</ano>
+        <nombre>Historiador Chabás</nombre>
+      </premio>
+    </obra>
+    <obra>
+      <titulo>Perder</titulo>
+      <venta>2000</venta>
+      <tema>Hecatombe</tema>
+    </obra>
+    <obra>
+      <titulo>Ganar</titulo>
+      <venta>2000</venta>
+      <tema>Hecatombe</tema>
+    </obra>
+    <obra>
+      <titulo>Empatar</titulo>
+      <venta>2000</venta>
+      <tema>Hecatombe</tema>
+    </obra>
+  </artista>
+  <artista>
+    <nombre>Edgar Cía</nombre>
+    <obra>
+      <titulo>Lucha</titulo>
+      <venta>1500</venta>
+      <tema>Bélico</tema>
+      <premio>
+        <ano>2014</ano>
+        <nombre>Historiador Chabás</nombre>
+      </premio>
+    </obra>
+    <obra>
+      <titulo>El poder de la lucha</titulo>
+      <venta>2000</venta>
+      <tema>Bélico</tema>
+    </obra>
+    <obra>
+      <titulo>La lucha de poderes</titulo>
+      <venta>2000</venta>
+      <tema>Bélico</tema>
+    </obra>
+    <obra>
+      <titulo>Poder luchar</titulo>
+      <venta>2000</venta>
+      <tema>Bélico</tema>
+    </obra>
+    <obra>
+      <titulo>Poder</titulo>
+      <venta>300</venta>
+      <tema>Bélico</tema>
+    </obra>
+  </artista>
+</centro>

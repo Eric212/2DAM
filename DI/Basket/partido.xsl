@@ -5,12 +5,12 @@
             <head>
                 <title>Lakers vs Celtics</title>
                 <link rel="icon" type="image/png" sizes="32x32" href="logo_alt.png"></link>
-                <link href="normalize.css" type="text/css" rel="stylesheet"></link>
-                <link href="css.css" type="text/css" rel="stylesheet"></link>
+                <link href="css/normalize.css" type="text/css" rel="stylesheet"></link>
+                <link href="css/css.css" type="text/css" rel="stylesheet"></link>
             </head>
             <body>
                 <div id="backlakers">
-                    <img src="lakers.png"></img>
+                    <img src="img/lakers.png"></img>
                     <table id="lakers">
                         <th colspan="4"><xsl:value-of select="equipo[1]/nombre[1]"></xsl:value-of></th>
                         <tr>
@@ -35,7 +35,7 @@
                     </table>
                 </div>
                 <div id="backceltics">
-                    <img src="celtic.png"></img>
+                    <img src="img/celtic.png"></img>
                     <table id="celtics">
                         <th colspan="4"><xsl:value-of select="equipo[2]/nombre[1]"></xsl:value-of></th>
                         <tr>

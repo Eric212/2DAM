@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT centro (artista+)>
+<!ELEMENT artista (nombre,obra+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT obra (titulo,venta,tema,premio*)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT venta (#PCDATA)>
+<!ELEMENT tema (#PCDATA)>
+<!ELEMENT premio (ano+,nombre)>
+<!ELEMENT ano (#PCDATA)>
