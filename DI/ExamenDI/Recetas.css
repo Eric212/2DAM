@@ -1,0 +1,57 @@
+recetas{
+  position: relative;
+  text-align: center;
+  background: rgb(190,90,60);
+  color:white;
+}
+receta{
+  padding: 20px 20px 20px 20px;
+}
+receta > nombre{
+  font-size: 24px;
+  display: block;
+  margin-bottom:2%;
+  margin-top:2%;
+}
+receta > ingrediente{
+  display: block;
+  text-align: center;
+  margin: 0 0 2% 2%;
+}
+receta > preparacion{
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 50%
+}
+body{
+  background: url("background.jpg");
+  background-size: 100%;
+}
+#backtable{
+  margin: 15% auto;
+  position: relative;
+  display: block;
+  width: 40%;
+  padding:5%;
+  background:linear-gradient(90deg, rgba(25,25,25,0.5) 0%,rgba(230,230,230,1) 40%,rgba(230,230,230,1) 60%,rgba(25,25,25,0.5) 100%);
+  border-radius: 20px;
+  border:2px groove rgba(30,30,30,0.7);
+}
+h2{
+  text-align:center;
+}
+table{
+  margin: 0 auto;
+  border: 0px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table td{
+  border:0px;
+  font-style: oblique;
+}
+#cantidad{
+  position: relative;
+  margin-right: 20%;
+}
