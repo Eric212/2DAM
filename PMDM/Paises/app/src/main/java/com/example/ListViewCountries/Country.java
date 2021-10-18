@@ -15,4 +15,23 @@ public class Country {
         this.countryIso3 = countryIso3;
     }
 
+    public String getCountryCode() {
+        return countryCode;
+    }
+
+    public String getCountryName() {
+        return countryName;
+    }
+
+    public String getCountryCapital() {
+        return countryCapital;
+    }
+
+    public long getCountryPopulation() {
+        return countryPopulation;
+    }
+
+    public String getCountryIso3() {
+        return countryIso3;
+    }
 }
