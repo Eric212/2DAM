@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="Recetas.css" type="text/css"?>
+<!--<?xml-stylesheet href="Recetas3.xsl" type="text/xsl"?>-->
+<!--<?xml-stylesheet href="Recetas2.xsl" type="text/xsl"?>-->
+<!--<?xml-stylesheet href="Recetas3.xsl" type="text/xsl"?>-->
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="Recetas.xsd">
+    <receta>
+        <nombre>Rollo o roti de carne picada relleno</nombre>
+        <ingrediente>
+            <nombre>carne de ternera picada</nombre>
+            <cantidad medida="kg">1</cantidad>
+        </ingrediente>
+        <ingrediente>
+            <nombre>Lonchas de jamón cocido</nombre>
+            <cantidad medida="ud">8</cantidad>
+        </ingrediente>
+        <ingrediente>
+            <nombre>huevo</nombre>
+            <cantidad medida="gr">40</cantidad>
+        </ingrediente>
+        <preparacion dificultad="media">
+            Lo primero que vamos hacer es poner 3 huevos a cocer. Unos 11/12 minutos, desde que el agua esté hirviendo.
+            En un vaso de batidora, echamos la miga de pan, la leche, el ajo pelado y un poco de perejil fresco picado.
+            Trituramos bien, que resulte una mezcla homogénea y reservamos. En un bol carne, colocamos nuestra carne picada. Salpimentamos al gusto.
+            Añadimos 2 de los huevos. Mezclamos todo bien. Aquí podéis dejarlo así o darle el toque de esa especia que tanto os gusta.
+            Colocamos film transparente sobre una tabla o directamente en la encimera. Pasamos la carne sobre él, y vamos extendiendo con las manos,
+            de modo que quede de forma rectangular. Sobre la carne, ponemos una primera capa del fiambre de york,
+            seguimos con el queso en lonchas para rematar con los huevos cocidos, que colocamos en uno de los extremos.
+            Poco a poco, con cuidado, vamos enrollando la carne comenzando por el lado donde están los huevos.
+            Según enrollamos vamos retirando el film. Cuando tengamos ya el rollo hecho, rematamos los extremos para que luego no se nos escape nada del relleno al cocinarlo.
+        </preparacion>
+    </receta>
+    <receta>
+        <nombre>Tarta de queso «La Viña»</nombre>
+        <ingrediente>
+            <nombre>crema de queso tipo Philadelphia</nombre>
+            <cantidad medida="kg">1</cantidad>
+        </ingrediente>
+        <ingrediente>
+            <nombre>nata liquida</nombre>
+            <cantidad medida="ml">500</cantidad>
+        </ingrediente>
+        <ingrediente>
+            <nombre>huevo</nombre>
+            <cantidad medida="ud">5</cantidad>
+        </ingrediente>
+        <preparacion dificultad="facil" horno_temperatura="180" tiempo="40m-45m">
+            Forramos un molde redondo de 24 cm de diámetro. Mi consejo es humedecer con un poco de agua el papel de horno y arrugarlo para que sea más fácil de usar y que quede con esa forma rústica. Podemos usar dos papeles intercalados y medio arrugados, esto dará a la tarta ese aspecto rústico.
+                Precalentamos el horno a 180º C con calor arriba y abajo (sin aire caliente).
+                Cascamos los 5 huevos camperos y reservamos. Vamos a batir los ingredientes, podría hacerse con una varilla manual o con un robot de cocina. Ponemos el queso crema en un bol grandote y empezamos a batir con las varillas eléctricas para que el queso se vuelva aún más cremoso. Sin dejar de batir vamos incorporando poco a poco la nata.
+                A continuación, añadimos el azúcar. Añadimos un huevo y batimos hasta que quede bien integrado en la mezcla. Cuando esté integrado añadimos el segundo huevo y seguimos así hasta integrar los cinco. Por último, incorporamos la harina y batimos hasta que todo quede bien mezclado. Pasamos el contenido del bol al molde forrado.
+        </preparacion>
+    </receta>
+    <receta>
+        <nombre>Yakimeshi o arroz frito al estilo japonés con pollo y verduras</nombre>
+        <ingrediente>
+            <nombre>agua</nombre>
+            <cantidad medida="ml">560</cantidad>
+        </ingrediente>
+        <ingrediente>
+            <nombre>arroz</nombre>
+            <cantidad medida="gr">400</cantidad>
+        </ingrediente>
+        <ingrediente>
+            <nombre>champiñones o setas</nombre>
+            <cantidad medida="gr">100</cantidad>
+        </ingrediente>
+        <preparacion dificultad="facil">
+                Para que el arroz esté perfecto para saltearlo, un buen truco es prepararlo, si es, posible, el día anterior o al menos unas horas antes de utilizarlo ya que así estará más suelto y un poco seco.
+                Antes de cocerlo ponlo en un bol con agua, remuévelo un poco con una cuchara o incluso con tus propias manos, tira el agua y vuelve a hacer lo mismo hasta que eches agua al bol y quede casi transparente. Esto se hace para que suelte el almidón y así quede más suelto al cocerlo.
+                Pon el arroz en una olla, échale el agua indicada en los ingredientes, tapa la olla y enciende el fuego a temperatura alta. A partir de que empiece a hervir cuenta 6 minutos, y al cabo de ese tiempo baja el fuego para que esté suave y deja que se cocine 6 minutos más. Todo el proceso debes realizarlo sin destapar la olla.
+                Cuando se haya cumplido el tiempo apaga el fuego, aparta la olla y déjalo reposando entre 30 minutos y 1 hora (sigue manteniendo la olla tapada), y al cabo de ese tiempo destápala y, cuando puedas manipularlo sin quemarte, sepáralo un poco con ayuda de una espátula de cocina o con tus propias manos. Lo ideal es que lo dejes reposar al menos otra hora más, aunque si no tienes más remedio se puede utilizar en el momento.
+                Corta el pollo en trocitos de bocado, ponlo en un bol y échale por encima la salsa de soja, el ingrediente picante si te gusta y el jengibre (pélalo previamente y pícalo muy pequeñito con el cuchillo o con un exprimidor de ajos, e incluso también puedes rallarlo con un rallador). Déjalo así entre 15 y 30 minutos, mientras sigues con el resto de la receta.
+        </preparacion>
+    </receta>
+    <receta>
+        <nombre>Arroz con leche</nombre>
+        <ingrediente>
+            <nombre>Leche</nombre>
+            <cantidad medida="L">1</cantidad>
+        </ingrediente>
+        <ingrediente>
+            <nombre>Azucar</nombre>
+            <cantidad medida="gr">100</cantidad>
+        </ingrediente>
+        <ingrediente>
+            <nombre>rama canela</nombre>
+            <cantidad medida="ud">2</cantidad>
+        </ingrediente>
+        <ingrediente>
+            <nombre>arroz</nombre>
+            <cantidad medida="gr">500</cantidad>
+        </ingrediente>
+        <preparacion dificultad="media">
+                Pon la mariposa en las cuchillas y vierte en el vaso de la Thermomix la leche, la piel de limón y las ramas de canela. Calienta durante 10 minutos a 90ºC y velocidad 1.
+                Incorpora el arroz y cocina durante 30 minutos a 90ºC y velocidad 1.
+                Añade el azúcar y sigue cocinando durante 10 minutos a 90ºC y velocidad 1.
+                Prueba el arroz y, si los granos están hechos (ya no se notan crudos) y la textura es la que más te gusta, quita las ramas de canela y la cáscara de limón y échalo en los recipientes en los que vayas a servirlo (pueden ser 4 raciones abundantes o 6 un poco más pequeñas) para que termine de asentarse.
+                Puede consumirse al momento, templadito, aunque normalmente es un postre que suele gustar frío así que deja que se enfríe en los recipientes y cuando esté totalmente frío déjalo en la nevera hasta el momento de consumir, diría que mínimo un par de horas de nevera para que esté fresquito.
+                Espolvorea con canela por encima o bien carameliza su superficie. Para ello puedes echar una cucharadita de azúcar encima del arroz bien repartida y con la ayuda de un soplete ir derritiendo el azúcar para que se forme una costra encima del arroz que cuando se enfríe estará crujiente. ¡Delicioso!
+        </preparacion>
+    </receta>
+    <receta>
+        <nombre>Cordero al horno o asado</nombre>
+        <ingrediente>
+            <nombre>pierna de cordero “pascual”</nombre>
+            <cantidad medida="kg">1,5</cantidad>
+        </ingrediente>
+        <ingrediente>
+            <nombre>agua</nombre>
+            <cantidad medida="ml">150</cantidad>
+        </ingrediente>
+        <preparacion dificultad="superfacil" horno_temperatura="250" tiempo="90m">
+                Lo primero que haremos será precalentar el horno a una temperatura alta, unos 250º C. Para que al meter el cordero no tenga que cocinarse partiendo de un entorno frío. Calor arriba y abajo. Además vamos a poner una vasija o recipiente que aguante bien el calor del horno lleno de agua. Así vamos a conseguir humedad en el horno, que le irá genial al cordero.
+                Salamos bien la carne por ambos lados. Colocamos la pierna en una cazuela de barro o cerámica, con la parte interior hacia arriba. Aunque os sobresalga un poco no os preocupéis ya que durante el horneado menguará de tamaño.
+                Si no disponéis de este recipiente cabría la posibilidad de cocinarlo sobre la bandeja metálica del horno. Aunque en este caso te recomiendo poner un poco de manteca en el agua. De este modo se evaporará más lentamente y no tendremos que reponerla.
+                Bajamos la temperatura del horno de 250º C (tiene que estar bien caliente antes de meter el cordero) a 160º C, recordad que debe tener calor arriba y abajo sin aire. Vertemos el vaso de agua en la base de la cazuela y metemos en el horno. La carne irá soltando su jugo sobre el agua e irá formándose poco a poco la salsa.
+        </preparacion>
+    </receta>
+</recetas>
