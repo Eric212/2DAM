@@ -29,14 +29,14 @@ public class MainActivity extends AppCompatActivity {
                 String comodin = cpu[new Random().nextInt(3)];
                 int ganador;
                 if(view.getId()==R.id.bStone) {
-                    iPlayer.setImageResource(R.mipmap.istone);
+                    iPlayer.setImageResource(R.mipmap.istone_foreground);
                     ganador=resultado("Piedra", comodin);
                     if(ganador==0){
-                        iCpu.setImageResource(R.mipmap.iscissors);
+                        iCpu.setImageResource(R.mipmap.iscissors_foreground);
                     }else if(ganador==1){
-                        iCpu.setImageResource(R.mipmap.ipaper);
+                        iCpu.setImageResource(R.mipmap.ipaper_foreground);
                     }else{
-                        iCpu.setImageResource(R.mipmap.istone);
+                        iCpu.setImageResource(R.mipmap.istone_foreground);
                     }
                     resultado.setText(resultados[ganador]);
                 }
@@ -50,14 +50,14 @@ public class MainActivity extends AppCompatActivity {
                 String comodin = cpu[new Random().nextInt(3)];
                 int ganador;
                 if (view.getId()==R.id.bPaper) {
-                    iPlayer.setImageResource(R.mipmap.ipaper);
+                    iPlayer.setImageResource(R.mipmap.ipaper_foreground);
                     ganador=resultado("Papel", comodin);
                     if(ganador==0){
-                        iCpu.setImageResource(R.mipmap.istone);
+                        iCpu.setImageResource(R.mipmap.istone_foreground);
                     }else if(ganador==1){
-                        iCpu.setImageResource(R.mipmap.iscissors);
+                        iCpu.setImageResource(R.mipmap.iscissors_foreground);
                     }else{
-                        iCpu.setImageResource(R.mipmap.ipaper);
+                        iCpu.setImageResource(R.mipmap.ipaper_foreground);
                     }
                     resultado.setText(resultados[ganador]);
                 }
@@ -71,14 +71,14 @@ public class MainActivity extends AppCompatActivity {
                 String comodin = cpu[new Random().nextInt(3)];
                 int ganador;
                 if(view.getId()==R.id.bScissors) {
-                    iPlayer.setImageResource(R.mipmap.iscissors);
+                    iPlayer.setImageResource(R.mipmap.iscissors_foreground);
                     ganador=resultado("Tijeras", comodin);
                     if(ganador==0){
-                        iCpu.setImageResource(R.mipmap.ipaper);
+                        iCpu.setImageResource(R.mipmap.ipaper_foreground);
                     }else if(ganador==1){
-                        iCpu.setImageResource(R.mipmap.istone);
+                        iCpu.setImageResource(R.mipmap.istone_foreground);
                     }else{
-                        iCpu.setImageResource(R.mipmap.iscissors);
+                        iCpu.setImageResource(R.mipmap.iscissors_foreground);
                     }
                     resultado.setText(resultados[ganador]);
                 }

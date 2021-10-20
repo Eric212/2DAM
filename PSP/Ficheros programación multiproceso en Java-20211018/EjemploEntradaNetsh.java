@@ -1,8 +1,6 @@
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.InputStream;
 import java.io.OutputStream;
 
 public class EjemploEntradaNetsh {
@@ -22,7 +20,7 @@ public class EjemploEntradaNetsh {
 		// escritura -- envia interface
 		OutputStream os = p.getOutputStream();
 		os.write("interface".getBytes());
-		os.flush(); // vacía el buffer de salida
+		os.flush(); // vacï¿½a el buffer de salida
 		
 		Thread.sleep(2000);
 
@@ -33,7 +31,7 @@ public class EjemploEntradaNetsh {
 		Thread.sleep(2000);
 		
 		os.write("ip".getBytes());
-		os.flush(); // vacía el buffer de salida
+		os.flush(); // vacï¿½a el buffer de salida
 		
 		Thread.sleep(2000);
 		mostrarSalida(br);

@@ -1,7 +1,7 @@
 import java.io.File;
 import java.io.IOException; 
 
-public class Ejemplo8 { 
+public class EjemploRedireccion { 
   public static void main(String args[]) throws IOException {
     ProcessBuilder pb = new ProcessBuilder("CMD");
     
